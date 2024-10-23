@@ -13,10 +13,10 @@
 
 この記事で使用した2枚の元の画像は以下の通りです：
 
-- ![neko.png](neko.png)
+- ![images/neko.png](neko.png)
   *neko.png 195 KBのPNG画像*
 
-- ![tenki.png](tenki.png)
+- ![images/tenki.png](tenki.png)
   *tenki.png 109 KBのPNG画像*
 
 これらの画像を、WebPおよびJPEGの圧縮パフォーマンスをさまざまな品質設定で比較するための基準としました。
@@ -44,55 +44,70 @@
 - **圧縮後のファイルサイズ**
 - **元のファイルサイズに対する割合**
 
-### JPEGとWebPの比較
+### 目視による画像の比較
 
-Quality 10のJPEGとWebP
+## Quality 10のJPEGとWebP
 
 <table><tr>
 <td>
-<img src="neko.png" alt="Original PNG" width="300">
+<img src="images/neko.png" alt="Original PNG" width="30%">
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="neko_quality_10.jpeg" alt="Quality 10 JPEG" width="300">
+<img src="images/neko_quality_10.jpeg" alt="Quality 10 JPEG" width="30%">
 <p align="center">Quality 10 JPEG</p>
 </td>
 <td>
-<img src="neko_quality_10.webp" alt="Quality 10 WebP" width="300">
+<img src="images/neko_quality_10.webp" alt="Quality 10 WebP" width="30%">
 <p align="center">Quality 10 WebP</p>
 </td>
 </tr>
 <tr>
 <td>
-<img src="tenki.png" alt="Original PNG" width="300">
+<img src="images/tenki.png" alt="Original PNG" width="30%">
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="tenki_quality_10.jpeg" alt="Quality 10 JPEG" width="300">
+<img src="images/tenki_quality_10.jpeg" alt="Quality 10 JPEG" width="30%">
 <p align="center">Quality 10 JPEG</p>
 </td>
 <td>
-<img src="tenki_quality_10.webp" alt="Quality 10 WebP" width="300">
+<img src="images/tenki_quality_10.webp" alt="Quality 10 WebP" width="30%">
 <p align="center">Quality 10 WebP</p>
 </td>
 </tr></table>
 
-Quality 20から100のJPEGとWebP比較
-
-{% for quality in [20, 30, 40, 50, 60, 70, 80, 90, 95, 96, 97, 98, 99, 100] %}
+## Quality 20のJPEGとWebP
 
 <table><tr>
 <td>
-<img src="neko_quality_{{ quality }}.jpeg" alt="Quality {{ quality }} JPEG" width="300">
-<p align="center">Quality {{ quality }} JPEG</p>
+<img src="images/neko.png" alt="Original PNG" width="30%">
+<p align="center">Original PNG</p>
 </td>
 <td>
-<img src="neko_quality_{{ quality }}.webp" alt="Quality {{ quality }} WebP" width="300">
-<p align="center">Quality {{ quality }} WebP</p>
+<img src="images/neko_quality_20.jpeg" alt="Quality 20 JPEG" width="30%">
+<p align="center">Quality 10 JPEG</p>
+</td>
+<td>
+<img src="images/neko_quality_20.webp" alt="Quality 20 WebP" width="30%">
+<p align="center">Quality 10 WebP</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="images/tenki.png" alt="Original PNG" width="30%">
+<p align="center">Original PNG</p>
+</td>
+<td>
+<img src="images/tenki_quality_20.jpeg" alt="Quality 20 JPEG" width="30%">
+<p align="center">Quality 20 JPEG</p>
+</td>
+<td>
+<img src="images/tenki_quality_20.webp" alt="Quality 20 WebP" width="30%">
+<p align="center">Quality 20 WebP</p>
 </td>
 </tr></table>
 
-{% endfor %}
 
 ### 視覚的な比較
 
