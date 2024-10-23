@@ -50,25 +50,25 @@
 
 <table><tr>
 <td>
-<img src="images/neko.png" alt="Original PNG" width="30%">
+<img src="images/neko.png" alt="Original PNG">
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="images/neko_quality_10.jpeg" alt="Quality 10 JPEG" width="30%">
+<img src="images/neko_quality_10.jpeg" alt="Quality 10 JPEG">
 <p align="center">Quality 10 JPEG</p>
 </td>
 <td>
-<img src="images/neko_quality_10.webp" alt="Quality 10 WebP" width="30%">
+<img src="images/neko_quality_10.webp" alt="Quality 10 WebP">
 <p align="center">Quality 10 WebP</p>
 </td>
 </tr>
 <tr>
 <td>
-<img src="images/tenki.png" alt="Original PNG" width="30%">
+<img src="images/tenki.png" alt="Original PNG">
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="images/tenki_quality_10.jpeg" alt="Quality 10 JPEG" width="30%">
+<img src="images/tenki_quality_10.jpeg" alt="Quality 10 JPEG">
 <p align="center">Quality 10 JPEG</p>
 </td>
 <td>
@@ -81,29 +81,29 @@
 
 <table><tr>
 <td width="30%">
-<img src="images/neko.png" alt="Original PNG" width="100%">
+<img src="images/neko.png" alt="Original PNG">
 <p align="center">Original PNG</p>
 </td>
 <td width="30%">
-<img src="images/neko_quality_20.jpeg" alt="Quality 20 JPEG" width="100%">
+<img src="images/neko_quality_20.jpeg" alt="Quality 20 JPEG">
 <p align="center">Quality 10 JPEG</p>
 </td>
 <td width="30%">
-<img src="images/neko_quality_20.webp" alt="Quality 20 WebP" width="1000%">
+<img src="images/neko_quality_20.webp" alt="Quality 20 WebP">
 <p align="center">Quality 10 WebP</p>
 </td>
 </tr>
 <tr>
 <td>
-<img src="images/tenki.png" alt="Original PNG" width="30%">
+<img src="images/tenki.png" alt="Original PNG">
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="images/tenki_quality_20.jpeg" alt="Quality 20 JPEG" width="30%">
+<img src="images/tenki_quality_20.jpeg" alt="Quality 20 JPEG">
 <p align="center">Quality 20 JPEG</p>
 </td>
 <td>
-<img src="images/tenki_quality_20.webp" alt="Quality 20 WebP" width="30%">
+<img src="images/tenki_quality_20.webp" alt="Quality 20 WebP">
 <p align="center">Quality 20 WebP</p>
 </td>
 </tr></table>
