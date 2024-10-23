@@ -8,7 +8,7 @@ WebPでは元となる画像によっては可逆圧縮のほうが非可逆圧�
 ![WebP and JPEG Compression with Lossless](images/webp_jpeg_compression_with_lossless_graph.png)
 
 
-### 目視による画像の比較
+# 目視による画像の比較
 この記事で使用した2枚の元の画像は以下の通りです：
 
 - ![neko.png](images/neko.png)
