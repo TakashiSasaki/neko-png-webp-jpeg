@@ -1,20 +1,20 @@
-# WebP vs JPEG: 圧縮性能の包括的比較
+# スクリーンショットはWebPが良い
 
-## TL;DR
+以下のグラフに示されるように、WebPはJPEGに対して優れた圧縮性能を発揮する。
+WebPでは元となる画像によっては可逆圧縮のほうが非可逆圧縮よりも圧縮効率が良い。
+したがって
+**Lossy 70%クォリティのWebP**と**Lossless WebP**のうち、小さい方を採用するのが良い。
 
-以下のグラフに示されるように、WebPはJPEGに対して優れた圧縮性能を発揮しました。
-**Lossy 70%クォリティのWebP**と**Lossless WebP**のうち、小さい方を採用することが最も効果的です。
-
-![WebP and JPEG Compression with Lossless](webp_jpeg_compression_with_lossless_graph.png)
+![WebP and JPEG Compression with Lossless](images/webp_jpeg_compression_with_lossless_graph.png)
 
 
 ### 目視による画像の比較
 この記事で使用した2枚の元の画像は以下の通りです：
 
-- ![images/neko.png](neko.png)
+- ![neko.png](images/neko.png)
   *neko.png 195 KBのPNG画像*
 
-- ![images/tenki.png](tenki.png)
+- ![tenki.png](images/tenki.png)
   *tenki.png 109 KBのPNG画像*
 
 変換前のオリジナルのPNG画像とWebP画像とJPEG画像を並べます。
