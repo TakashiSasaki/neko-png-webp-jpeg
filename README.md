@@ -80,16 +80,16 @@
 ## Quality 20のJPEGとWebP
 
 <table><tr>
-<td>
-<img src="images/neko.png" alt="Original PNG" width="30%">
+<td width="30%">
+<img src="images/neko.png" alt="Original PNG" width="100%">
 <p align="center">Original PNG</p>
 </td>
-<td>
-<img src="images/neko_quality_20.jpeg" alt="Quality 20 JPEG" width="30%">
+<td width="30%">
+<img src="images/neko_quality_20.jpeg" alt="Quality 20 JPEG" width="100%">
 <p align="center">Quality 10 JPEG</p>
 </td>
-<td>
-<img src="images/neko_quality_20.webp" alt="Quality 20 WebP" width="30%">
+<td width="30%">
+<img src="images/neko_quality_20.webp" alt="Quality 20 WebP" width="1000%">
 <p align="center">Quality 10 WebP</p>
 </td>
 </tr>
