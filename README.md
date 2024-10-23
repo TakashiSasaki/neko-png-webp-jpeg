@@ -148,11 +148,11 @@
 </td>
 <td>
 <img src="images/neko_quality_40.jpeg" alt="Quality 40 JPEG">
-<p align="center">Quality 30 JPEG</p>
+<p align="center">Quality 40 JPEG</p>
 </td>
 <td>
 <img src="images/neko_quality_40.webp" alt="Quality 40 WebP">
-<p align="center">Quality 30 WebP</p>
+<p align="center">Quality 40 WebP</p>
 </td>
 </tr>
 <tr>
@@ -161,12 +161,12 @@
 <p align="center">Original PNG</p>
 </td>
 <td>
-<img src="images/tenki_quality_40.jpeg" alt="Quality 30 JPEG">
-<p align="center">Quality 30 JPEG</p>
+<img src="images/tenki_quality_40.jpeg" alt="Quality 40 JPEG">
+<p align="center">Quality 40 JPEG</p>
 </td>
 <td>
-<img src="images/tenki_quality_40.webp" alt="Quality 30 WebP">
-<p align="center">Quality 30 WebP</p>
+<img src="images/tenki_quality_40.webp" alt="Quality 40 WebP">
+<p align="center">Quality 40 WebP</p>
 </td>
 </tr></table>
 
